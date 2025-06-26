@@ -71,11 +71,6 @@ export function Problem() {
             wasn't going to accept that pain pills were her only option. She
             wasn't going to "learn to live with it."
           </p>
-          <div className="bg-[#F2DDD6] p-6 rounded-lg text-center">
-            <p className="text-lg leading-relaxed mb-0 font-medium">
-              What she discovered next not only changed her life but has since
-              helped thousands of other women who were told to "just take pills"
-              for their knee pain...
             </p>
           </div>
         </div>
