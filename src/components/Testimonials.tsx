@@ -145,7 +145,7 @@ export function Testimonials() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-8">
             <div className="flex flex-col space-y-4">
               <div className="relative">
-                <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_05_22_05_AM.png" alt="Sarah from Seattle" className="w-full rounded-lg aspect-square object-cover shadow-lg" />
+              <img src="/chatgpt_06.png" alt="Sarah from Seattle" className="w-full rounded-lg aspect-square object-cover shadow-lg" />
                 <div className="absolute -right-2 -bottom-2 bg-[#D66A5E] text-white text-xs px-3 py-1 rounded-full shadow-lg">
                   Sarah, 58
                 </div>
@@ -163,7 +163,7 @@ export function Testimonials() {
             </div>
             <div className="flex flex-col space-y-4">
               <div className="relative">
-                <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_05_22_04_AM.png" alt="Margaret from Denver" className="w-full rounded-lg aspect-square object-cover shadow-lg" />
+               <img src="/chatgpt_07.png" alt="Margaret from Denver" className="w-full rounded-lg aspect-square object-cover shadow-lg" />
                 <div className="absolute -right-2 -bottom-2 bg-[#D66A5E] text-white text-xs px-3 py-1 rounded-full shadow-lg">
                   Margaret, 62
                 </div>
@@ -181,7 +181,7 @@ export function Testimonials() {
             </div>
             <div className="flex flex-col space-y-4">
               <div className="relative">
-                <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_05_22_52_AM.png" alt="Carol from Phoenix" className="w-full rounded-lg aspect-square object-cover shadow-lg" />
+               <img src="/chatgpt_08.png" alt="Carol from Phoenix" className="w-full rounded-lg aspect-square object-cover shadow-lg" />
                 <div className="absolute -right-2 -bottom-2 bg-[#D66A5E] text-white text-xs px-3 py-1 rounded-full shadow-lg">
                   Carol, 59
                 </div>
@@ -207,7 +207,7 @@ export function Testimonials() {
           </div>
           <div className="flex flex-col md:flex-row gap-6 items-center bg-[#F9F5F2] p-6 rounded-lg mb-8 shadow-sm">
             <div className="w-full md:w-1/3">
-              <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_03_49_28_AM.png" alt="Dr. James Richardson, Sports Medicine Physician" className="rounded-lg w-full max-w-[240px] mx-auto shadow-lg" />
+             <img src="/chatgpt_05.png" alt="Dr. James Richardson, Sports Medicine Physician" className="rounded-lg w-full max-w-[240px] mx-auto shadow-lg" />
             </div>
             <div className="w-full md:w-2/3">
               <div className="bg-white p-4 rounded-lg border-l-4 border-[#D66A5E]">

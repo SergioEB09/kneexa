@@ -24,7 +24,7 @@ export function Hero() {
           </div>
         </div>
         <div className="max-w-2xl mx-auto mb-8 relative">
-          <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_01_55_23_AM.png" alt="A woman enjoying her morning coffee with a warm smile after finding relief from chronic pain" className="w-full rounded-lg shadow-lg" />
+         <img src="/chatgpt-01.png" alt="A woman enjoying her morning coffee with a warm smile after finding relief from chronic pain" />
           <div className="absolute -right-4 -top-4 bg-[#D66A5E] text-white text-sm px-4 py-2 rounded-full shadow-lg transform rotate-3">
             As seen in Health Today
           </div>

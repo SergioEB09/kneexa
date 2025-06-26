@@ -14,7 +14,7 @@ export function FirstExperience() {
             <div className="absolute -right-4 -top-4 bg-[#D66A5E] text-white text-sm px-4 py-2 rounded-full shadow-lg transform rotate-6">
               The moment everything changed
             </div>
-            <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_03_16_15_AM.png" alt="Woman relaxing with the knee therapy device showing red light treatment" className="w-full rounded-lg shadow-lg" />
+           <img src="/chatgpt_03.png" alt="Woman relaxing with the knee therapy device showing red light treatment" className="w-full rounded-lg shadow-lg" />
           </div>
           <div className="flex justify-end my-4">
             <div className="bg-[#F2DDD6] p-3 rounded-lg max-w-xs transform rotate-1 shadow-sm">

@@ -197,7 +197,8 @@ export function Benefits() {
             </blockquote>
           </div>
           <div className="my-8 relative">
-            <img src="/ChatGPT_Image_Jun_18%2C_2025%2C_03_21_35_AM.png" alt="Diagram showing the four therapeutic features: Targeted Heat for soothing stiffness, Red Light Therapy for deep healing, Massage for easing aches, and Compression for reducing swelling" className="w-full rounded-lg shadow-lg mb-8" />
+            <img src="/chatgpt_04.png" alt="Diagram showing the four therapeutic features: Targeted Heat for soothing stiffness, Red Light Therapy for deep healing, Massage for easing aches, and Compression for reducing swelling" className="w-full rounded-lg shadow-lg mb-8" />
+
             <div className="absolute bottom-4 right-4 md:right-4 bg-[#FDF9F6] text-[#333333] text-xs md:text-sm px-3 py-1 md:px-4 md:py-2 rounded shadow-lg transform rotate-2 max-w-[160px] md:max-w-[220px] z-10">
               <p className="text-xs md:text-sm italic mb-0">
                 The 4-in-1 technology combines what would normally require

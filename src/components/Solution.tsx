@@ -105,7 +105,7 @@ export function Solution() {
           </div>
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <div className="w-full md:w-1/3">
-              <img src="/ChatGPT_Image_Jun_23%2C_2025%2C_04_30_00_PM.png" alt="Woman standing up with a relieved expression" className="w-full rounded-lg shadow-lg" />
+             <img src="/chatgpt_09.png" alt="Woman standing up with a relieved expression" className="w-full rounded-lg shadow-lg" />
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-lg leading-relaxed mb-4">
