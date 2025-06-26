@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default StickyNav;
+export default function StickyNav() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -30,20 +30,20 @@ export default StickyNav;
                 <span className="flex text-[#D66A5E] mr-1">★★★★★</span>
                 <span className="whitespace-nowrap">4.9 (2,847)</span>
               </div>
-            </div>
-            <div className="flex items-center space-x-4 mt-2 md:mt-0">
-              <div className="text-xs md:text-sm font-medium whitespace-nowrap text-[#D66A5E]">
-                Only 17 units left
+              <div className="flex items-center space-x-4 mt-2 md:mt-0">
+                <div className="text-xs md:text-sm font-medium whitespace-nowrap text-[#D66A5E]">
+                  Only 17 units left
+                </div>
               </div>
-          <a
-  href="https://novaluxcol.com/products/kneexa-relief-system"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition"
->
-  Check Availability
-</a>
             </div>
+            <a
+              href="https://novaluxcol.com/products/kneexa-relief-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition"
+            >
+              Check Availability
+            </a>
           </div>
         </div>
       </div>
