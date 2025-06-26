@@ -39,9 +39,9 @@ export function Story() {
           </p>
 
 <div className="w-full md:w-1/2 bg-[#F2DDD6] p-6 rounded-lg">
-  <blockquote className="italic border-l-4 border-[#D66A5E] pl-4 pr-2 mb-16 text-[#333333]">
+  <blockquote className="italic border-l-4 border-[#D66A5E] pl-4 mb-12 mt-0 text-[#333333]">
     "I remember the exact moment I knew things had to change," Linda tells me over coffee.  
-    "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who's 89 and uses a walker."
+    "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother... who's 89 and uses a walker."
   </blockquote>
 </div>
 
