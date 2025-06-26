@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default function StickyNav() {
+export default StickyNav;
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -35,14 +35,14 @@ export default function StickyNav() {
               <div className="text-xs md:text-sm font-medium whitespace-nowrap text-[#D66A5E]">
                 Only 17 units left
               </div>
-              <a
-                href="https://novaluxcol.com/products/kneexa-relief-system"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition"
-              >
-                Check Availability →
-              </a>
+          <a
+  href="https://novaluxcol.com/products/kneexa-relief-system"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition"
+>
+  Check Availability
+</a>
             </div>
           </div>
         </div>
