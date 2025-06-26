@@ -4,7 +4,7 @@ export function CallToAction() {
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-          <h2 className="text-xl md:text-3xl font-bold text-center whitespace-nowrap px-4 max-w-[90%] mx-auto">
+         <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto mb-6">
             Want to See What Helped Linda?
           </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
@@ -47,9 +47,14 @@ export function CallToAction() {
             </div>
           </div>
           <div className="text-center my-8">
-            <a href="https://your-shopify-store.com/products/kneexa-therapeutic-system" className="inline-block bg-[#D66A5E] hover:bg-[#C55D52] text-white font-bold py-3 px-8 rounded-full shadow-lg text-lg transition-all transform hover:scale-105">
-              See the Device Behind Linda's Transformation →
-            </a>
+<a
+  href="https://novaluxcol.com/products/kneexa-relief-system"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md"
+>
+  See the Device Behind Linda's Transformation
+</a>
             <p className="text-sm mt-4 text-[#666666]">
               No prescriptions. No appointments. No commitments. Just a chance
               to feel what it's like to move without pain.
@@ -104,9 +109,14 @@ export function CallToAction() {
             <p className="font-medium">— Linda Martinez</p>
           </div>
           <div className="text-center mt-8">
-            <a href="https://your-shopify-store.com/products/kneexa-therapeutic-system" className="inline-block bg-[#D66A5E] hover:bg-[#C55D52] text-white font-bold py-3 px-6 md:px-8 rounded-full shadow-lg text-base md:text-lg transition-all transform hover:scale-105 w-full md:w-auto">
-              Get Your Device Now →
-            </a>
+<a
+  href="https://novaluxcol.com/products/kneexa-relief-system"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md"
+>
+  Get Your Device Now →
+</a>
             <p className="text-xs mt-4 text-[#666666]">
               *Limited quantities available due to high demand. Ships within 24
               hours.
