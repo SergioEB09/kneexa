@@ -25,11 +25,16 @@ export function StickyNav() {
             <div className="text-xs md:text-sm text-[#D66A5E] font-medium whitespace-nowrap">
               Only 17 units left
             </div>
-            <a href="https://your-shopify-store.com/products/kneexa-therapeutic-system" className="bg-[#D66A5E] hover:bg-[#C55D52] text-white px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-medium transition-colors flex items-center space-x-2">
-              <span>Check Availability</span>
-              <span className="text-xl">→</span>
-            </a>
-          </div>
+<div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50">
+  <a
+    href="https://novaluxcol.com/products/kneexa-relief-system"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition"
+  >
+    Check Availability
+  </a>
+</div>
         </div>
       </div>
     </div>;
