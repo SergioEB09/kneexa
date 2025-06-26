@@ -4,7 +4,7 @@ export function Problem() {
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-          <h2 className="text-xl md:text-3xl font-bold text-center whitespace-nowrap px-4 max-w-[90%] mx-auto">
+        <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto mb-6">
             The Moment Everything Changed
           </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
