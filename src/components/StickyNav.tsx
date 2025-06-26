@@ -36,13 +36,13 @@ return (
       </div>
     </div>
 
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50">
-      <a
-        href="https://novaluxcol.com/products/kneexa-relief-system"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition"
-      >
+<div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50">
+  <a
+    href="https://novaluxcol.com/products/kneexa-relief-system"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition"
+  >
         Check Availability
       </a>
     </div>
