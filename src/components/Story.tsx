@@ -21,18 +21,18 @@ export function Story() {
             You know the one. The woman who grips the stair railing with both hands. The woman who winces getting out of chairs. The woman who makes excuses about why she can't join family walks.
           </p>
 
-          <div className="my-8 relative">
-            <img
-              src="/chatgpt_02.png"
-              alt="A woman grimacing in pain while holding onto a stair railing, with a concerned young girl watching"
-              className="w-full rounded-lg shadow-lg"
-            />
-            <div className="absolute -left-4 -bottom-4 bg-[#FDF9F6] text-[#333333] text-sm px-4 py-2 rounded shadow-lg transform -rotate-2 max-w-[250px]">
-              <p className="text-sm italic mb-0">
-                "That moment when Emma saw me struggling... it broke my heart" - Linda
-              </p>
-            </div>
-          </div>
+<div className="my-8 relative">
+  <img
+    src="/chatgpt_02.png"
+    alt="A woman grimacing in pain..."
+    className="w-full rounded-lg shadow-lg"
+  />
+  <div className="absolute -left-4 -bottom-4 bg-[#FDF9F6] text-[#333333] text-sm px-4 py-2 rounded shadow-lg transform -rotate-2 max-w-[250px]">
+    <p className="text-sm italic mb-0">
+      "That moment when Emma saw me struggling... it broke my heart" - Linda
+    </p>
+  </div>
+</div>
 
           <p className="text-lg leading-relaxed mb-6">
             At 58, Linda had been dealing with knee pain for three years. What started as occasional stiffness had evolved into daily agony that dictated every decision she made.
