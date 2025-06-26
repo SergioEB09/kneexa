@@ -69,9 +69,13 @@ export function Story() {
             </ul>
           </div>
 
-          <blockquote className="italic text-xl font-serif text-center mb-8">
-            "I lay there thinking about all the moments I was missing. Emma had stopped asking me to play. My husband had stopped suggesting walks. I was disappearing from my own life."
-          </blockquote>
+<div className="flex items-center justify-center my-8">
+  <div className="max-w-xl bg-[#FDF9F6] p-6 rounded-lg border border-[#E5E0DC] shadow-sm">
+    <blockquote className="italic text-xl font-serif text-center mb-0">
+      "I lay there thinking about all the moments I was missing. Emma had stopped asking me to play. My husband had stopped suggesting walks. I was disappearing from my own life."
+    </blockquote>
+  </div>
+</div>
 
           <p className="text-lg leading-relaxed mb-6">
             But what happened next changed everything. In just 10 minutes a day, using what she calls her "weird little morning ritual," Linda eliminated her knee pain completely. No pills. No surgery. No expensive doctor visits.
