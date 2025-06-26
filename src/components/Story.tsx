@@ -38,13 +38,13 @@ export function Story() {
             At 58, Linda had been dealing with knee pain for three years. What started as occasional stiffness had evolved into daily agony that dictated every decision she made.
           </p>
 
-<div className="flex items-center justify-center my-8">
-  <div className="max-w-xl bg-[#FDF9F6] p-6 rounded-lg border border-[#E5E0DC] shadow-sm">
-    <blockquote className="italic text-xl font-serif text-center mb-0">
-      "I remember the exact moment I knew things had to change," Linda tells me over coffee. "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who's 89 and uses a walker."
-    </blockquote>
-  </div>
+<div className="w-full md:w-1/2 bg-[#F2DDD6] p-6 rounded-lg">
+  <blockquote className="italic border-l-4 border-[#D66A5E] pl-4 mb-0 text-[#333333]">
+    "I remember the exact moment I knew things had to change," Linda tells me over coffee.
+    "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who's 89 and uses a walker."
+  </blockquote>
 </div>
+
 
           <p className="text-lg leading-relaxed mb-6">
             That night, Linda couldn't sleep. Not from the pain – though her knees throbbed constantly – but from the crushing realization that this vibrant, active woman who raised four children and ran a business was becoming invisible.
