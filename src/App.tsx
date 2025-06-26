@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from './components/Header';
-import { StickyNav } from './components/StickyNav';
+import StickyNav from './components/StickyNav';
 import { Hero } from './components/Hero';
 import { Story } from './components/Story';
 import { Problem } from './components/Problem';
