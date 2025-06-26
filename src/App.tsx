@@ -16,7 +16,6 @@ function App() {
     <div>
       <Hero />
       <Story />
-      <Problem />
       <RealProblem /> {/* <- Your new component */}
       <FirstExperience />
       <Solution />
