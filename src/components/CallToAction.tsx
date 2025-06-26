@@ -51,9 +51,9 @@ export function CallToAction() {
   href="https://novaluxcol.com/products/kneexa-relief-system"
   target="_blank"
   rel="noopener noreferrer"
-  className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md"
+  className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition duration-200"
 >
-  See the Device Behind Linda's Transformation
+  See the Device Behind Linda's Transformation →
 </a>
             <p className="text-sm mt-4 text-[#666666]">
               No prescriptions. No appointments. No commitments. Just a chance
@@ -113,7 +113,7 @@ export function CallToAction() {
   href="https://novaluxcol.com/products/kneexa-relief-system"
   target="_blank"
   rel="noopener noreferrer"
-  className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md"
+  className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition duration-200"
 >
   Get Your Device Now →
 </a>
