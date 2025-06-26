@@ -58,7 +58,8 @@ export function Problem() {
             Too young to give up the activities that made life worth living.
           </p>
           <div className="relative my-8">
-            <div className="absolute -left-2 top-1/2 transform -translate-y-1/2 w-1 h-16 bg-[#D66A5E]"></div>
+            <div className="absolute -left-2 top-1/2 transform -translate-y-1/2 w-1 h-16 bg-kneexaAccent
+"></div>
             <blockquote className="italic text-xl font-serif pl-6 my-8">
               "I remember sitting in my car after that appointment, holding that
               bottle of pills," Linda recalls. "I thought about Emma, about all
