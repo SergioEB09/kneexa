@@ -2,7 +2,6 @@ export function Story() {
   return (
     <section className="bg-white py-10 px-4">
       <div className="container mx-auto max-w-3xl">
-
         {/* Heading */}
         <div className="flex items-center space-x-2 mb-6">
           <div className="border-l-4 border-[#E5E0DC] flex-grow"></div>
@@ -20,32 +19,30 @@ export function Story() {
           You know the one. The woman who grips the stair railing with both hands. The woman who winces getting out of chairs. The woman who makes excuses about why she can’t join family walks.
         </p>
 
-        {/* Main Flex Section: Text + Image */}
-        <div className="flex flex-col lg:flex-row gap-8 items-start mb-12">
-          {/* LEFT: Text and Quote */}
-          <div className="w-full lg:w-1/2">
-            <p className="text-lg leading-relaxed mb-4">
-              At 58, Linda had been dealing with knee pain for three years. What started as occasional stiffness had evolved into daily agony that dictated every decision she made.
-            </p>
-            <blockquote className="bg-[#F2DDD6] text-[#333] italic text-base rounded-lg px-6 py-4 shadow leading-relaxed">
-              <p>
-                "I remember the exact moment I knew things had to change," Linda tells me over coffee. "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who’s 89 and uses a walker."
-              </p>
-            </blockquote>
-          </div>
-
-          {/* RIGHT: Image */}
-          <div className="w-full lg:w-1/2 relative">
-            <img
-              src="/chatgpt_02.png"
-              alt="A woman grimacing in pain..."
-              className="rounded-lg shadow-lg w-full"
-            />
-            <figcaption className="italic text-sm text-gray-600 mt-2 bg-white shadow px-4 py-2 rounded">
-              "That moment when Emma saw me struggling... it broke my heart" – <strong>Linda</strong>
-            </figcaption>
-          </div>
+        {/* Image */}
+        <div className="my-8">
+          <img
+            src="/chatgpt_02.png"
+            alt="A woman grimacing in pain..."
+            className="rounded-lg shadow-lg w-full"
+          />
+          <figcaption className="italic text-sm text-gray-600 mt-2 bg-white shadow px-4 py-2 rounded">
+            "That moment when Emma saw me struggling... it broke my heart" – <strong>Linda</strong>
+          </figcaption>
         </div>
+
+        {/* Paragraph Below Image */}
+        <p className="text-lg leading-relaxed mb-6">
+          At 58, Linda had been dealing with knee pain for three years. What started as occasional stiffness had evolved into daily agony that dictated every decision she made.
+        </p>
+
+        {/* Quote Block */}
+        <blockquote className="bg-[#F2DDD6] text-[#333] italic text-base rounded-lg px-6 py-4 shadow leading-relaxed mb-8">
+          <p>
+            "I remember the exact moment I knew things had to change," Linda tells me over coffee.
+            "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who’s 89 and uses a walker."
+          </p>
+        </blockquote>
 
         {/* Narrative Continues */}
         <p className="text-lg leading-relaxed mb-6">
