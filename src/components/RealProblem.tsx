@@ -5,31 +5,28 @@ export function RealProblem() {
     <section className="bg-[#FDF9F6] py-12 px-4">
       <div className="container mx-auto max-w-5xl">
         {/* IMAGE + QUOTE block at the top */}
-        <div className="flex flex-col lg:flex-row gap-8 items-start mb-12">
-          <div className="w-full lg:w-1/2 relative">
-            <img
-              src="/chatgpt_02.png"
-              alt="Linda struggling on stairs with Emma watching"
-              className="rounded-lg shadow-lg w-full"
-            />
-            <figcaption className="italic text-sm text-gray-600 mt-2 absolute bottom-2 left-2 bg-white shadow px-4 py-2 rounded">
-              “That moment when Emma saw me struggling… it broke my heart” – <strong>Linda</strong>
-            </figcaption>
-          </div>
+<div className="flex flex-col lg:flex-row gap-8 items-start mb-12">
+  {/* LEFT SIDE — TEXT + QUOTE */}
+  <div className="w-full lg:w-1/2">
+    <p className="text-lg leading-relaxed mb-4">
+      At 58, Linda had been dealing with knee pain for three years. What started as occasional stiffness had evolved into daily agony that dictated every decision she made.
+    </p>
+    <blockquote className="bg-[#F2DDD6] text-[#333] italic text-base rounded-lg px-6 py-4 shadow leading-relaxed">
+      <p>
+        "I remember the exact moment I knew things had to change," Linda tells me over coffee. "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who’s 89 and uses a walker."
+      </p>
+    </blockquote>
+  </div>
 
-          <div className="w-full lg:w-1/2">
-            <p className="text-lg leading-relaxed mb-4">
-              At 58, Linda had been dealing with knee pain for three years. What started as occasional stiffness had evolved into daily agony that dictated every decision she made.
-            </p>
-            <blockquote className="bg-[#F2DDD6] text-[#5B3A2B] italic text-base rounded-lg px-6 py-4 shadow leading-relaxed">
-              <p>
-                <em>
-                  "I remember the exact moment I knew things had to change," Linda tells me over coffee. "My 6-year-old granddaughter, Emma, asked me why I walked like her great-grandmother… who’s 89 and uses a walker."
-                </em>
-              </p>
-            </blockquote>
-          </div>
-        </div>
+  {/* RIGHT SIDE — IMAGE + CAPTION */}
+  <div className="w-full lg:w-1/2 relative">
+    <img src="/chatgpt_02.png" alt="Linda on stairs with Emma watching" className="rounded-lg shadow-lg w-full" />
+    <figcaption className="italic text-sm text-gray-600 mt-2 bg-white shadow px-4 py-2 rounded">
+  "That moment when Emma saw me struggling... it broke my heart" – <strong>Linda</strong>
+</figcaption>
+
+  </div>
+</div>
 
         {/* Section title */}
         <h2 className="text-xl md:text-3xl font-bold text-[#333] text-center mb-8">
