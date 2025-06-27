@@ -1,6 +1,7 @@
 import React from 'react';
 import { Hero } from './components/Hero';
 import { Story } from './components/Story';
+import RealProblem from './components/RealProblem';
 import { FirstExperience } from './components/FirstExperience';
 import { Solution } from './components/Solution';
 import { Benefits } from './components/Benefits';
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Hero />
       <Story />
+      <RealProblem />  
       <FirstExperience />
       <Solution />
       <Benefits />
@@ -26,3 +28,4 @@ function App() {
 }
 
 export default App;
+
