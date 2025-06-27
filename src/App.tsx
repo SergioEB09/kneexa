@@ -15,8 +15,7 @@ function App() {
   return (
     <div>
       <Hero />
-      <Story />
-      <RealProblem /> {/* <- Your new component */}
+      <RealProblem />
       <FirstExperience />
       <Solution />
       <Benefits />
