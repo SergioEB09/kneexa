@@ -47,14 +47,14 @@ export function CallToAction() {
             </div>
           </div>
           <div className="text-center my-8">
-<a
-  href="https://novaluxcol.com/products/kneexa-relief-system"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition duration-200"
->
-  See the Device Behind Linda's Transformation →
-</a>
+ <a
+    href="https://novaluxcol.com/products/kneexa-relief-system"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block w-full sm:w-auto bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-4 sm:px-6 rounded-xl shadow-md transition duration-200 text-sm sm:text-base leading-snug whitespace-normal"
+  >
+    See the Device Behind Linda's Transformation →
+  </a>
             <p className="text-sm mt-4 text-[#666666]">
               No prescriptions. No appointments. No commitments. Just a chance
               to feel what it's like to move without pain.
