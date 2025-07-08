@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="bg-[#FDF9F6] border-b border-[#E5E0DC] py-3 px-4">
+    <header className="bg-[#FDF9F6] border-b-[#E5E0DC] py-3 px-4">
       <div className="container mx-auto max-w-5xl flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <img
