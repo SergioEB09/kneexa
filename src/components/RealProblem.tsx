@@ -1,6 +1,4 @@
-import React from "react";
-
-function RealProblem() {
+const RealProblem = () => {
   return (
     <section className="container mx-auto max-w-3xl">
       <div className="flex items-center space-x-2 mb-8">
@@ -138,6 +136,6 @@ function RealProblem() {
       </div>
     </section>
   );
-}
+};
 
 export default RealProblem;
