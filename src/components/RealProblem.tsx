@@ -6,7 +6,7 @@ const RealProblem = () => {
       <div className="container mx-auto max-w-3xl px-4">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow" />
-          <h2 className="text-xl md:text-3xl font-bold text-center whitespace-nowrap px-4 max-w-[90%] mx-auto">
+          <h2 className="text-xl md:text-3xl font-bold text-center px-4 max-w-[90%] mx-auto">
             The Real Problem Doctors Don’t Want You to Know
           </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow" />
