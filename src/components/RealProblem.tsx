@@ -8,6 +8,21 @@ export default function RealProblem() {
           The Real Problem Doctors Don’t Want You to Know
         </h2>
 
+     <div className="text-base leading-relaxed space-y-4">
+          <p>
+            Linda’s story isn’t unique. If you’re reading this, you probably recognize
+            yourself in her struggle.
+          </p>
+          <p>
+            But here’s what Linda discovered that changed everything: Her knee pain
+            wasn’t from “just getting older.”
+          </p>
+          <p>
+            Despite what her doctor told her (“It’s normal at your age”), Linda’s pain
+            had a specific, fixable cause.
+          </p>
+          <p>
+            
 <div className="flex flex-col md:flex-row items-start md:items-center gap-6 my-8">
   <img
     src="/pexels-karolina-grabowska-5207334.jpg"
@@ -22,20 +37,6 @@ export default function RealProblem() {
   </div>
 </div>
 
-        <div className="text-base leading-relaxed space-y-4">
-          <p>
-            Linda’s story isn’t unique. If you’re reading this, you probably recognize
-            yourself in her struggle.
-          </p>
-          <p>
-            But here’s what Linda discovered that changed everything: Her knee pain
-            wasn’t from “just getting older.”
-          </p>
-          <p>
-            Despite what her doctor told her (“It’s normal at your age”), Linda’s pain
-            had a specific, fixable cause.
-          </p>
-          <p>
             Linda had heard the same dismissive response from three different doctors.
             Each one offered the same “solutions”:
           </p>
