@@ -8,7 +8,7 @@ export default function RealProblem() {
           The Real Problem Doctors Don’t Want You to Know
         </h2>
 
-     <div className="text-base leading-relaxed space-y-4">
+     <div className="text-[15px] text-[#333] leading-relaxed md:text-base space-y-4">
           <p>
             Linda’s story isn’t unique. If you’re reading this, you probably recognize
             yourself in her struggle.
