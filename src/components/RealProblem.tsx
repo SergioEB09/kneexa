@@ -1,3 +1,5 @@
+import React from "react";
+
 function RealProblem() {
   return (
     <section className="container mx-auto max-w-3xl">
@@ -40,7 +42,7 @@ function RealProblem() {
           Linda had heard this same dismissive response from three different doctors. Each one offered the same "solutions":
         </p>
 
-        <div className="bg-white rounded-lg p-6 mb-8 border-l-4 border-[#D66A5E] shadow-sm">
+        <div className="bg-[#FDF9F6] rounded-lg p-6 mb-8 border-l-4 border-[#D66A5E] shadow-sm">
           <ul className="list-none space-y-3 mb-0">
             <li className="flex items-center">
               <div className="w-8 h-8 rounded-full bg-[#F2DDD6] flex items-center justify-center mr-3 flex-shrink-0">
@@ -85,7 +87,7 @@ function RealProblem() {
 
         <p className="text-lg leading-relaxed mb-6">Linda calculated that her knee pain was costing her:</p>
 
-        <div className="bg-gray-50 rounded-lg p-6 my-8 border-l-4 border-[#D66A5E]">
+        <div className="bg-[#FDF9F6] rounded-lg p-6 my-8 border-l-4 border-[#D66A5E]">
           <ul className="list-none pl-0 space-y-3">
             <li className="flex items-start">
               <span className="text-[#D66A5E] mr-2">•</span>$2,400 per year in medications
@@ -104,7 +106,7 @@ function RealProblem() {
 
         <p className="text-lg leading-relaxed mb-6">She was missing:</p>
 
-        <div className="bg-gray-50 rounded-lg p-6 my-8 border-l-4 border-[#D66A5E]">
+        <div className="bg-[#FDF9F6] rounded-lg p-6 my-8 border-l-4 border-[#D66A5E]">
           <ul className="list-none pl-0 space-y-3">
             <li className="flex items-start">
               <span className="text-[#D66A5E] mr-2">•</span>Precious moments with grandchildren
