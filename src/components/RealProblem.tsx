@@ -8,21 +8,19 @@ export default function RealProblem() {
           The Real Problem Doctors Don’t Want You to Know
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6 items-start mb-10">
-          <img
-            src="/pexels-karolina-grabowska-5207334.jpg"
-            alt="Woman holding pill bottle"
-            className="rounded-lg shadow-md w-full object-cover"
-          />
-
-          <div className="text-sm leading-relaxed md:text-base">
-            <p className="mb-2">
-              “Take these pills and learn to live with it,” her orthopedist had said,
-              scribbling out a prescription for pain medication.
-            </p>
-            <p className="font-semibold">Sound familiar?</p>
-          </div>
-        </div>
+<div className="flex flex-col md:flex-row items-start md:items-center gap-6 my-8">
+  <img
+    src="/pexels-karolina-grabowska-5207334.jpg"
+    alt="Linda holding pills"
+    className="w-full md:w-1/2 rounded-xl shadow-md"
+  />
+  <div className="md:w-1/2 text-[15px] text-[#333] leading-relaxed mt-4 md:mt-0">
+    <p className="mb-2">
+      <em>"Take these pills and learn to live with it,"</em> her orthopedist had said, scribbling out a prescription for pain medication.
+    </p>
+    <p className="font-semibold">Sound familiar?</p>
+  </div>
+</div>
 
         <div className="text-base leading-relaxed space-y-4">
           <p>
