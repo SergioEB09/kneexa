@@ -11,6 +11,7 @@ export function Solution() {
           </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
         </div>
+
         <div className="prose lg:prose-lg mx-auto">
           <div className="flex flex-col md:flex-row gap-8 mb-8">
             <div className="w-full md:w-1/2">
@@ -25,6 +26,7 @@ export function Solution() {
                 success, but that most people had never heard of.
               </p>
             </div>
+
             <div className="w-full md:w-1/2">
               <div className="bg-[#F9F5F2] rounded-lg p-6 h-full flex items-center">
                 <blockquote className="italic border-l-4 border-[#D66A5E] pl-4 mb-0">
@@ -36,6 +38,7 @@ export function Solution() {
               </div>
             </div>
           </div>
+
           <div className="bg-[#F2DDD6] rounded-lg p-6 mb-8">
             <p className="text-lg leading-relaxed mb-4 font-medium">
               The more Linda researched, the more intrigued she became:
@@ -77,6 +80,7 @@ export function Solution() {
               </div>
             </div>
           </div>
+
           <div className="flex justify-center my-8">
             <div className="max-w-xl bg-[#F9F5F2] p-6 rounded-lg border border-[#E5E0DC] shadow-sm">
               <blockquote className="italic text-xl font-serif text-center mb-0">
@@ -86,10 +90,12 @@ export function Solution() {
               </blockquote>
             </div>
           </div>
+
           <p className="text-lg leading-relaxed mb-6">
             The device arrived two days later. Linda was skeptical but desperate
             enough to try anything.
           </p>
+
           <div className="bg-[#F9F5F2] rounded-lg p-6 mb-8 border-l-4 border-[#D66A5E]">
             <blockquote className="italic mb-0">
               "I'll never forget that first morning," Linda recalls. "I strapped
@@ -105,13 +111,13 @@ export function Solution() {
               best physical therapist working on my knee."
             </blockquote>
           </div>
+
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <div className="w-full md:w-1/3">
               <img
-                src="/chatgpt_09.png"
+                src="/chatgpt_09.jpg"
                 alt="Woman standing up with a relieved expression"
                 className="w-full rounded-lg shadow-lg"
-                loading="lazy"
               />
             </div>
             <div className="w-full md:w-2/3">
