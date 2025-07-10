@@ -1,19 +1,23 @@
 import React from 'react';
+
 export function Benefits() {
-  return <section className="bg-[#F9F5F2] py-12 px-4">
+  return (
+    <section className="bg-[#F9F5F2] py-12 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-        <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto mb-6">
+          <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto mb-6">
             The Science Behind Linda's 'Weird' Ritual
           </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
         </div>
+
         <div className="prose lg:prose-lg mx-auto">
           <p className="text-lg leading-relaxed mb-6">
             What Linda discovered wasn't actually weird at all – it was
             brilliant science that most people just haven't heard about.
           </p>
+
           <div className="flex justify-center my-6">
             <div className="bg-white p-4 rounded-lg shadow-sm border border-[#E5E0DC] max-w-xl">
               <p className="text-xl font-serif italic text-center mb-0">
@@ -22,10 +26,13 @@ export function Benefits() {
               </p>
             </div>
           </div>
+
           <p className="text-lg leading-relaxed mb-6">
             The device Linda uses combines four proven therapies that physical
             therapists and sports medicine doctors have used for decades:
           </p>
+
+          {/* Targeted Heat Therapy */}
           <div className="bg-white rounded-lg shadow-sm border border-[#E5E0DC] p-6 mb-8">
             <div className="flex items-center mb-4">
               <div className="w-10 h-10 rounded-full bg-[#D66A5E] text-white flex items-center justify-center mr-4 flex-shrink-0">
@@ -57,6 +64,8 @@ export function Benefits() {
               </p>
             </div>
           </div>
+
+          {/* Red Light Therapy */}
           <div className="bg-white rounded-lg shadow-sm border border-[#E5E0DC] p-6 mb-8">
             <div className="flex items-center mb-4">
               <div className="w-10 h-10 rounded-full bg-[#D66A5E] text-white flex items-center justify-center mr-4 flex-shrink-0">
@@ -96,6 +105,8 @@ export function Benefits() {
               </div>
             </div>
           </div>
+
+          {/* Massage */}
           <div className="bg-white rounded-lg shadow-sm border border-[#E5E0DC] p-6 mb-8">
             <div className="flex items-center mb-4">
               <div className="w-10 h-10 rounded-full bg-[#D66A5E] text-white flex items-center justify-center mr-4 flex-shrink-0">
@@ -118,6 +129,8 @@ export function Benefits() {
               </div>
             </div>
           </div>
+
+          {/* Compression */}
           <div className="bg-white rounded-lg shadow-sm border border-[#E5E0DC] p-6 mb-8">
             <div className="flex items-center mb-4">
               <div className="w-10 h-10 rounded-full bg-[#D66A5E] text-white flex items-center justify-center mr-4 flex-shrink-0">
@@ -140,6 +153,8 @@ export function Benefits() {
               </div>
             </div>
           </div>
+
+          {/* Combination Summary */}
           <h3 className="text-xl font-semibold mb-4">
             Why Combining All Four Works
           </h3>
@@ -148,31 +163,26 @@ export function Benefits() {
             combining all four creates a synergistic effect that's more powerful
             than any single treatment.
           </p>
+
           <div className="bg-[#F2DDD6] border border-[#E5E0DC] rounded-lg p-4 md:p-6 mb-6">
             <div className="text-center space-y-3 md:space-y-4">
               <div className="flex flex-col md:flex-row items-center justify-center gap-2">
                 <span className="bg-white px-3 py-2 rounded-lg shadow-sm font-medium text-sm md:text-base w-full md:w-auto text-center">
                   Heat increases circulation
                 </span>
-                <span className="text-[#D66A5E] text-2xl hidden md:inline">
-                  +
-                </span>
+                <span className="text-[#D66A5E] text-2xl hidden md:inline">+</span>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center gap-2">
                 <span className="bg-white px-3 py-2 rounded-lg shadow-sm font-medium text-sm md:text-base w-full md:w-auto text-center">
                   Red Light reduces inflammation
                 </span>
-                <span className="text-[#D66A5E] text-2xl hidden md:inline">
-                  +
-                </span>
+                <span className="text-[#D66A5E] text-2xl hidden md:inline">+</span>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center gap-2">
                 <span className="bg-white px-3 py-2 rounded-lg shadow-sm font-medium text-sm md:text-base w-full md:w-auto text-center">
                   Massage relaxes muscles
                 </span>
-                <span className="text-[#D66A5E] text-2xl hidden md:inline">
-                  +
-                </span>
+                <span className="text-[#D66A5E] text-2xl hidden md:inline">+</span>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center gap-2">
                 <span className="bg-white px-3 py-2 rounded-lg shadow-sm font-medium text-sm md:text-base w-full md:w-auto text-center">
@@ -187,6 +197,8 @@ export function Benefits() {
               </div>
             </div>
           </div>
+
+          {/* Final quote */}
           <div className="relative my-8">
             <div className="absolute -left-2 top-1/2 transform -translate-y-1/2 w-1 h-16 bg-[#D66A5E]"></div>
             <blockquote className="italic text-xl font-serif pl-6 my-8">
@@ -196,9 +208,14 @@ export function Benefits() {
               minutes."
             </blockquote>
           </div>
-          <div className="my-8 relative">
-            <img src="/chatgpt_04.png" alt="Diagram showing the four therapeutic features: Targeted Heat for soothing stiffness, Red Light Therapy for deep healing, Massage for easing aches, and Compression for reducing swelling" className="w-full rounded-lg shadow-lg mb-8" />
 
+          {/* Image + overlay */}
+          <div className="my-8 relative">
+            <img
+              src="/chatgpt_04.png"
+              alt="Diagram showing the four therapeutic features: Targeted Heat for soothing stiffness, Red Light Therapy for deep healing, Massage for easing aches, and Compression for reducing swelling"
+              className="w-full rounded-lg shadow-lg mb-8"
+            />
             <div className="absolute bottom-4 right-4 md:right-4 bg-[#FDF9F6] text-[#333333] text-xs md:text-sm px-3 py-1 md:px-4 md:py-2 rounded shadow-lg transform rotate-2 max-w-[160px] md:max-w-[220px] z-10">
               <p className="text-xs md:text-sm italic mb-0">
                 The 4-in-1 technology combines what would normally require
@@ -208,5 +225,6 @@ export function Benefits() {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 }
