@@ -26,9 +26,10 @@ const RealProblem = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
             <div className="w-full md:w-1/2">
               <img
-                src="https://uploadthingy.s3.us-west-1.amazonaws.com/nknYKkLjtgxowDs7NXzBVX/pexels-karolina-grabowska-5207334.jpg"
+                src="/pexels-karolina-grabowska-5207334.jpg"
                 alt="A frustrated woman looking at a pill bottle"
                 className="w-full rounded-lg shadow-lg"
+                loading="lazy"
               />
             </div>
             <div className="w-full md:w-1/2">
