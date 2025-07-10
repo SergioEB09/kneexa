@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export function Story() {
   return (
@@ -6,9 +6,11 @@ export function Story() {
       <div className="container mx-auto max-w-3xl">
         <div className="prose lg:prose-lg mx-auto">
           <div className="flex items-center space-x-2 mb-6">
-            <div className="h-px bg-[#E5E0DC] flex-grow" />
-            <span className="text-sm uppercase tracking-wider text-[#666666] whitespace-nowrap px-4">Her Story</span>
-            <div className="h-px bg-[#E5E0DC] flex-grow" />
+            <div className="h-px bg-[#E5E0DC] flex-grow"></div>
+            <span className="text-sm uppercase tracking-wider text-[#666666] whitespace-nowrap px-4">
+              Her Story
+            </span>
+            <div className="h-px bg-[#E5E0DC] flex-grow"></div>
           </div>
 
           <p className="text-xl leading-relaxed mb-6 font-serif italic">
@@ -21,9 +23,10 @@ export function Story() {
 
           <div className="my-8 relative">
             <img
-              src="https://uploadthingy.s3.us-west-1.amazonaws.com/kbyVcAWJeUz5gZ4b9jxU9K/ChatGPT_Image_Jun_18%2C_2025%2C_02_34_14_AM.png"
+              src="/chatgpt_02.jpg"
               alt="A woman grimacing in pain while holding onto a stair railing, with a concerned young girl watching"
               className="w-full rounded-lg shadow-lg"
+              loading="lazy"
             />
             <div className="absolute -left-4 -bottom-4 bg-[#FDF9F6] text-[#333333] text-sm px-4 py-2 rounded shadow-lg transform -rotate-2 max-w-[250px]">
               <p className="text-sm italic mb-0">
@@ -52,11 +55,21 @@ export function Story() {
           <div className="bg-gray-50 rounded-lg p-6 my-8 border-l-4 border-[#D66A5E]">
             <p className="text-lg font-medium mb-4">She was tired of:</p>
             <ul className="list-none pl-0 space-y-3">
-              <li className="flex items-start"><span className="text-[#D66A5E] mr-2">•</span>Avoiding stairs whenever possible</li>
-              <li className="flex items-start"><span className="text-[#D66A5E] mr-2">•</span>Sitting out family activities</li>
-              <li className="flex items-start"><span className="text-[#D66A5E] mr-2">•</span>Feeling 20 years older than her age</li>
-              <li className="flex items-start"><span className="text-[#D66A5E] mr-2">•</span>The pitying looks from friends and family</li>
-              <li className="flex items-start"><span className="text-[#D66A5E] mr-2">•</span>Being defined by her limitations instead of her strength</li>
+              <li className="flex items-start">
+                <span className="text-[#D66A5E] mr-2">•</span>Avoiding stairs whenever possible
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#D66A5E] mr-2">•</span>Sitting out family activities
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#D66A5E] mr-2">•</span>Feeling 20 years older than her age
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#D66A5E] mr-2">•</span>The pitying looks from friends and family
+              </li>
+              <li className="flex items-start">
+                <span className="text-[#D66A5E] mr-2">•</span>Being defined by her limitations instead of her strength
+              </li>
             </ul>
           </div>
 
