@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export function Hero() {
   return (
@@ -9,11 +9,14 @@ export function Hero() {
             <span className="text-sm uppercase tracking-wider text-[#666666]">
               HEALTH & WELLNESS SPECIAL REPORT
             </span>
-            <span className="bg-[#D66A5E] text-white text-xs px-2 py-1 rounded">TRENDING</span>
+            <span className="bg-[#D66A5E] text-white text-xs px-2 py-1 rounded">
+              TRENDING
+            </span>
           </div>
           <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-6 text-[#333333]">
-            Tired of Limping Through Life? This 58-Year-Old Grandmother's "Weird" 10-Minute Morning
-            Ritual Eliminates Knee Pain Without Pills or Surgery
+            Tired of Limping Through Life? This 58-Year-Old Grandmother's
+            "Weird" 10-Minute Morning Ritual Eliminates Knee Pain Without Pills
+            or Surgery
           </h1>
           <div className="flex items-center justify-center space-x-4 text-[#666666] text-lg mb-6">
             <img
@@ -22,7 +25,10 @@ export function Hero() {
               className="w-12 h-12 rounded-full"
             />
             <div className="text-left">
-              <div>By <span className="text-[#333333] font-medium">Sarah Matthews</span></div>
+              <div>
+                By{" "}
+                <span className="text-[#333333] font-medium">Sarah Matthews</span>
+              </div>
               <div className="text-sm">Health & Wellness Editor</div>
             </div>
           </div>
@@ -30,16 +36,17 @@ export function Hero() {
 
         <div className="max-w-2xl mx-auto mb-8 relative">
           <img
-            src="/chatgpt_01.png"
+            src="/chatgpt_01.jpg"
             alt="A woman enjoying her morning coffee with a warm smile after finding relief from chronic pain"
             className="w-full rounded-lg shadow-lg mb-8"
+            loading="eager"
           />
           <div className="absolute -right-4 -top-4 bg-[#D66A5E] text-white text-sm px-4 py-2 rounded-full shadow-lg transform rotate-3">
             As seen in Health Today
           </div>
           <p className="text-sm text-[#666666] mt-4 text-center italic bg-[#F2DDD6] p-4 rounded-lg">
-            "I went from barely able to climb stairs to playing tag with my grandkids — all thanks
-            to this simple morning routine"
+            "I went from barely able to climb stairs to playing tag with my
+            grandkids — all thanks to this simple morning routine"
           </p>
         </div>
 
@@ -55,7 +62,9 @@ export function Hero() {
           <div className="flex items-center space-x-2">
             <span className="text-[#666666]">4.9</span>
             <div className="flex text-[#D66A5E]">★★★★★</div>
-            <span className="text-[#666666] hidden md:inline">(2,847 reviews)</span>
+            <span className="text-[#666666] hidden md:inline">
+              (2,847 reviews)
+            </span>
           </div>
         </div>
       </div>
