@@ -1,12 +1,14 @@
 import React from 'react';
+
 export function Solution() {
-  return <section className="bg-white py-12 px-4">
+  return (
+    <section className="bg-white py-12 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-<h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto">
-  The Discovery That Changed Everything
-</h2>
+          <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto">
+            The Discovery That Changed Everything
+          </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
         </div>
         <div className="prose lg:prose-lg mx-auto">
@@ -105,7 +107,12 @@ export function Solution() {
           </div>
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <div className="w-full md:w-1/3">
-             <img src="/chatgpt_09.png" alt="Woman standing up with a relieved expression" className="w-full rounded-lg shadow-lg" />
+              <img
+                src="/chatgpt_09.png"
+                alt="Woman standing up with a relieved expression"
+                className="w-full rounded-lg shadow-lg"
+                loading="lazy"
+              />
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-lg leading-relaxed mb-4">
@@ -120,5 +127,6 @@ export function Solution() {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 }
