@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Solution() {
   return (
-    <section className="bg-white py-12 px-4">
+    <section className="bg-[#F9F5F2] py-12 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
