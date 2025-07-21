@@ -17,8 +17,10 @@
       s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script');
 
-      fbq('init', '1114558576814346'); 
-      fbq('track', 'PageView');
+      fbq('init', '1114558576814346');
+      setTimeout(function () {
+        fbq('track', 'PageView');
+      }, 300); // delay to ensure fbq is ready
     </script>
     <!-- End Facebook Pixel Code -->
 
