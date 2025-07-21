@@ -16,8 +16,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      <RealProblem />
       <Story />
+      <RealProblem />
       <Solution />
       <FirstExperience />
       <Benefits />
