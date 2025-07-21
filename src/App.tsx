@@ -16,15 +16,16 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Story />
       <RealProblem />
-      <FirstExperience />
+      <Story />
       <Solution />
+      <FirstExperience />
       <Benefits />
       <Testimonials />
       <FAQ />
       <CallToAction />
       <Footer />
+
 
       {/* Sticky ATC */}
       <div className="fixed bottom-0 left-0 right-0 bg-[#FDF9F6] border-t border-[#E5E0DC] shadow-sm py-3 px-4 z-50">
