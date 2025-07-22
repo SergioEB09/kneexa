@@ -1,10 +1,12 @@
 import React from 'react';
+declare const fbq: (...args: any[]) => void;
 export function CallToAction() {
-  return <section className="bg-white py-12 px-4">
+  return (
+    <section className="bg-white py-12 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center space-x-2 mb-8">
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-         <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto mb-6">
+          <h2 className="text-xl md:text-3xl font-bold text-center px-4 w-full max-w-3xl mx-auto mb-6">
             Want to See What Helped Linda?
           </h2>
           <div className="h-px bg-[#E5E0DC] flex-grow"></div>
@@ -46,20 +48,23 @@ export function CallToAction() {
               </div>
             </div>
           </div>
+
           <div className="text-center my-8">
- <a
-    href="https://novaluxcol.com/products/kneexa-relief-system"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block w-full sm:w-auto bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-4 sm:px-6 rounded-xl shadow-md transition duration-200 text-sm sm:text-base leading-snug whitespace-normal"
-  >
-    See the Device Behind Linda's Transformation →
-  </a>
+            <a
+              href="https://novaluxcol.com/products/kneexa-relief-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => fbq('trackCustom', 'AdvertorialCTAClick')}
+              className="inline-block w-full sm:w-auto bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-4 sm:px-6 rounded-xl shadow-md transition duration-200 text-sm sm:text-base leading-snug whitespace-normal"
+            >
+              See the Device Behind Linda's Transformation →
+            </a>
             <p className="text-sm mt-4 text-[#666666]">
               No prescriptions. No appointments. No commitments. Just a chance
               to feel what it's like to move without pain.
             </p>
           </div>
+
           <div className="flex items-center justify-center space-x-4 md:space-x-6 my-8">
             <div className="flex flex-col items-center">
               <div className="w-12 md:w-16 h-12 md:h-16 rounded-full bg-[#F9F5F2] flex items-center justify-center mb-2">
@@ -100,6 +105,7 @@ export function CallToAction() {
               </p>
             </div>
           </div>
+
           <div className="bg-[#F9F5F2] rounded-lg p-6 my-8 text-center">
             <p className="font-serif italic text-lg mb-4">
               "Every morning I wake up now, I have a choice. I can move with
@@ -108,15 +114,17 @@ export function CallToAction() {
             </p>
             <p className="font-medium">— Linda Martinez</p>
           </div>
+
           <div className="text-center mt-8">
-<a
-  href="https://novaluxcol.com/products/kneexa-relief-system"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition duration-200"
->
-  Get Your Device Now →
-</a>
+            <a
+              href="https://novaluxcol.com/products/kneexa-relief-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => fbq('trackCustom', 'AdvertorialCTAClick')}
+              className="bg-[#D66A5E] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition duration-200"
+            >
+              Get Your Device Now →
+            </a>
             <p className="text-xs mt-4 text-[#666666]">
               *Limited quantities available due to high demand. Ships within 24
               hours.
@@ -124,5 +132,6 @@ export function CallToAction() {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 }
