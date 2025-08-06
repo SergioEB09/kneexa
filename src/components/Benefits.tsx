@@ -212,7 +212,7 @@ export function Benefits() {
           {/* Image + overlay */}
           <div className="my-8 relative">
             <img
-              src="/chatgpt_04.png"
+              src="/chatgpt_04.jpg"
               alt="Diagram showing the four therapeutic features: Targeted Heat for soothing stiffness, Red Light Therapy for deep healing, Massage for easing aches, and Compression for reducing swelling"
               className="w-full rounded-lg shadow-lg mb-8"
             />
