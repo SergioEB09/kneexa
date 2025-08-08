@@ -1,0 +1,97 @@
+[33m171f5b7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m chore: trigger Netlify redeploy
+[33m9726a68[m fix: correct default export in Footer.tsx
+[33mb808808[m chore: trigger Netlify redeploy
+[33mb1b5c90[m fix: add default export to FAQ.tsx to fix Netlify build
+[33m337b26e[m Fix export error: add default export to Testimonials component
+[33m1ae73a0[m fix: add default export to Benefits.tsx to resolve Netlify import error
+[33ma516a45[m fix: add default export to FirstExperience to resolve Netlify build error
+[33m44f686f[m Fix: Add default export to Solution.tsx to resolve Netlify build error
+[33mdff54b7[m Fix App.tsx import for CallToAction (default import)
+[33m30e52ad[m Fix import and finalize Facebook Pixel CTA tracking
+[33m9e78c69[m Fix default export and add ClickCTA tracking
+[33m2abd78b[m Add ClickCTA Facebook Pixel event to CTA buttons
+[33mc2fe1b5[m Fix Pixel PageView delay for Vite
+[33m9616e41[m Fix Facebook Pixel build error
+[33mf322b12[m Add Facebook Pixel
+[33m86c8960[m Corrected order: RealProblem now after Story
+[33m5e76d74[m Changed Solution section background to #F9F5F2
+[33mde6ccfd[m Reordered sections in App.tsx
+[33mb93cb39[m Fix Benefits section with correct chatgpt_04.jpg image
+[33m7ea4bbe[m Fix image path for Solution section
+[33mcb2b40b[m Optimized image loading for Solution section
+[33m54c4183[m Use optimized local image in RealProblem component
+[33m41bc08c[m Replaced chatgpt_03.png with optimized chatgpt_03.jpg and added lazy loading
+[33m31ceb13[m Optimize and replace Linda story image with compressed version
+[33m7263b19[m Add compressed JPG hero image and remove old PNG
+[33m67c1682[m Replace hero image with optimized JPG
+[33mdfd7ab6[m Fix CTA button layout for mobile responsiveness
+[33m306a1b8[m Add global mobile optimization styles
+[33m09bb220[m fix: update all default imports correctly
+[33m4a81407[m fix: export Header correctly and fix imports
+[33m8ba39f2[m feat: add sticky ATC
+[33m50c6f0a[m fix: correct RealProblem and Header imports
+[33m6e46529[m fix: correct Header.tsx casing for Netlify
+[33m061a014[m feat: add Header component to App.tsx
+[33m98e7494[m feat: add Header component to App.tsx
+[33m0491044[m Fix: remove whitespace-nowrap to fix heading cut-off issue
+[33mcad15b2[m Update story.tsx with full Her Story section
+[33m5677def[m fix: update main headline in Hero section
+[33m0bc6da1[m fix: apply background color to RealProblem and Hero sections
+[33m4797359[m fix: restore cream background to RealProblem section
+[33mc8849c7[m fix: apply correct background colors to RealProblem section
+[33mb28ed41[m Fix: restore cream background sections in RealProblem component
+[33m21682f8[m fix: wrapped RealProblem in a React component
+[33m0a5b312[m Fix: added default export for RealProblem component
+[33meee6cdd[m Update Linda story section to match MagicPatterns design and typography
+[33m694f2b0[m Adjust font size and color for Linda intro to match ideal layout
+[33m9daccc5[m Move Linda story text above image to match ideal layout
+[33m1ea94a2[m Fix duplicate image and quote block, keeping ideal layout
+[33m7d3c0de[m Update RealProblem section to match ideal layout and styling
+[33m99eddf2[m Add full RealProblem section with final layout and image
+[33m9aa2dde[m Add image to RealProblem section before shift in narrative
+[33md9c9dec[m Restore RealProblem component to fix build error
+[33mf5de66b[m Restore RealProblem section
+[33m75f7a4d[m Remove RealProblem component to avoid duplicate layout
+[33m03f9a52[m Replace Story.tsx with clean stacked layout and remove duplicates
+[33mfa622de[m Refactor Story component: clean layout, remove duplicates
+[33m76f766c[m Remove old Story section to avoid duplicate content
+[33mb2b26b2[m Refactored Linda's section layout to match new design
+[33mc9b3be8[m Replaced pill bottle section with stairs image and emotional quote
+[33m498165a[m Removed Problem section from page
+[33m9f64633[m Fix JSX nesting and remove broken transition box
+[33m28bb062[m Replaced hardcoded accent color with bg-kneexaAccent
+[33ma6d5476[m Removed transition box below 'Here's how she did it'
+[33mc9a051c[m Add RealProblem section and update advertorial structure
+[33m9b4ef31[m Fix default App import
+[33mfc2fb94[m Fix RealProblem export and import
+[33mb80c4f0[m Fix syntax error in App.tsx
+[33mdaaa43b[m Insert RealProblem component between sections
+[33m982377d[m Add RealProblem section after The Moment Everything Changed
+[33m78342e1[m Update Linda quote block style and spacing
+[33m9fdc328[m Fix spacing below quote box and restore original red box size
+[33m172fd02[m Fix spacing below red quote box and revert original padding
+[33m5654144[m Fix quote box spacing and text color
+[33mfd599da[m Fix quote box spacing and text color
+[33m0783669[m Fix quote box spacing and text color
+[33m0b62255[m Updated Story section spacing and restored original quote styles
+[33m37e0a29[m Fix quote styling to match original layout
+[33ma0a9464[m Update Story.tsx to restore original styling and inject new copy
+[33md63c085[m Updated story copy
+[33m758b64b[m Updated story copy
+[33m89a66f4[m Fix CTA links and apply terracotta red styling
+[33mf395305[m Fix CTA links and update styles
+[33mbdf6600[m Fix unmatched closing brace and apply Terracotta sticky ATC
+[33m19d5685[m Fix: import StickyNav as default export
+[33mb6f6ee7[m Fix: import StickyNav as default export
+[33m2397a1b[m Revert StickyNav to original design with redirect
+[33m6936889[m Revert sticky CTA to original style with updated redirect
+[33ma165c03[m Fix JSX syntax in StickyNav.tsx
+[33m58a0f42[m Fix JSX syntax in StickyNav.tsx
+[33md9ae3a6[m Update all 'Get Your Device Now' CTAs with Shopify redirect
+[33mc3726c9[m Fix title wrapping for mobile
+[33m506bcf1[m Fix mobile wrapping for title
+[33m746f6ea[m Fix mobile wrapping for title
+[33m6087060[m Fix: correct image filename for chatgpt_01
+[33m18d68eb[m Update all image paths to lowercase filenames
+[33m7118e3c[m Add React routing redirects
+[33m4acda83[m Initial commit
