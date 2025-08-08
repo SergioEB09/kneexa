@@ -9,7 +9,7 @@ import { Benefits } from './components/Benefits';         // named
 import { Testimonials } from './components/Testimonials'; // named
 import { FAQ } from './components/FAQ';                   // named
 import { CallToAction } from './components/CallToAction'; // named
-import Footer from './components/Footer';                 // default
+import { Footer } from './components/Footer';             // ← named
 
 
 
