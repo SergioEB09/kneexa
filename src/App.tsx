@@ -1,15 +1,16 @@
 import React from 'react';
-import Header from './components/Header';
-import { Hero } from './components/Hero';
-import { Story } from './components/Story';
-import RealProblem from './components/RealProblem';
-import { FirstExperience } from './components/FirstExperience';
-import { Solution } from './components/Solution';
-import { Benefits } from './components/Benefits';
-import { Testimonials } from './components/Testimonials';
-import { FAQ } from './components/FAQ';
-import { CallToAction } from './components/CallToAction';
-import { Footer } from './components/Footer';
+import Header from './components/Header';               // default (keep)
+import Hero from './components/Hero';                   // default (NEW)
+import { Story } from './components/Story';             // named
+import { RealProblem } from './components/RealProblem'; // named
+import { FirstExperience } from './components/FirstExperience'; // named
+import { Solution } from './components/Solution';       // named
+import { Benefits } from './components/Benefits';       // named
+import { Testimonials } from './components/Testimonials'; // named
+import { FAQ } from './components/FAQ';                 // named
+import { CallToAction } from './components/CallToAction'; // named
+import Footer from './components/Footer';               // default (keep)
+
 
 function App() {
   return (
