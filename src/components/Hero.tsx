@@ -141,12 +141,13 @@ const HeroB: React.FC = () => (
 
         {/* HEADLINE (bigger) */}
         <h1 className="font-serif text-[24px] leading-tight sm:text-5xl md:text-6xl lg:text-[56px] md:leading-tight mb-2 sm:mb-3 text-[#333]">
-          How My 'Graveyard of Knee Gadgets' Led to My Breakthrough
+          How My Chronic Knee Pain Went From Bad To TERRIBLE... A Wakeup Call For People With Knee Conditions
         </h1>
 
         {/* SUBHEAD (smaller) */}
         <p className="text-[14px] sm:text-base md:text-lg text-[#444] max-w-3xl mx-auto">
-         My closet was full of expensive braces, sleeves, and devices that promised relief but delivered disappointment. Until I learned why they all fail...
+         I thought I'd tried everything—pills, shots, braces, therapy. But the day I could barely get out of bed changed everything. 
+         What I discovered about circulation and inflammation finally explained why nothing had worked...
         </p>
         {/* chips + CTA removed */}
       </div>
