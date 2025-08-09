@@ -74,7 +74,7 @@ const HeroA: React.FC = () => (
 
         {/* HEADLINE (bigger) */}
         <h1 className="font-serif text-[24px] leading-tight sm:text-5xl md:text-6xl lg:text-[56px] md:leading-tight mb-2 sm:mb-3 text-[#333]">
-          How My Knee Pain Stole My Independence (And What I Found That Doctors Never Mentioned)
+          How My Chronic Knee Pain Became A Problem And Why...
         </h1>
 
         {/* SUBHEAD (smaller) */}
