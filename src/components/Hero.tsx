@@ -1,6 +1,6 @@
 import React from "react";
 
-/** (Not rendered here, kept in case you need it later) */
+/** (Kept for later; not rendered here) */
 const CTA: React.FC<{ variant: string }> = ({ variant }) => (
   <a
     href={`https://novaluxcol.com/products/kneexa-relief-system?src=presell&v=${variant}`}
@@ -16,9 +16,10 @@ const CTA: React.FC<{ variant: string }> = ({ variant }) => (
   </a>
 );
 
-/** Trust badges (SVG, no images) — mobile-optimized sizing */
+/** Trust badges — mobile shows ratings beneath the 35,000+ badge */
 const TrustBadges: React.FC = () => (
   <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3 mt-1 mb-2 px-2" aria-label="Trust badges">
+    {/* 90-Day Money-Back */}
     <div className="inline-flex items-center gap-1.5 bg-white border border-[#E5E0DC] rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium text-[#333] shadow-sm">
       <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
         <path d="M12 2l7 3v6c0 5-3.5 9-7 11-3.5-2-7-6-7-11V5l7-3z" fill="none" stroke="currentColor" strokeWidth="1.6"/>
@@ -27,6 +28,7 @@ const TrustBadges: React.FC = () => (
       <span>90-Day Money-Back</span>
     </div>
 
+    {/* FDA-Cleared */}
     <div className="inline-flex items-center gap-1.5 bg-white border border-[#E5E0DC] rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium text-[#333] shadow-sm">
       <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
         <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" strokeWidth="1.6"/>
@@ -35,12 +37,23 @@ const TrustBadges: React.FC = () => (
       <span>FDA-Cleared Device</span>
     </div>
 
-    <div className="inline-flex items-center gap-1.5 bg-white border border-[#E5E0DC] rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium text-[#333] shadow-sm">
-      <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
-        <path d="M8 13a4 4 0 118 0" fill="none" stroke="currentColor" strokeWidth="1.6"/>
-        <path d="M2 19a6 6 0 0110-4 6 6 0 0110 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/>
-      </svg>
-      <span>35,000+ Women Helped</span>
+    {/* 35,000+ Women Helped + MOBILE ratings underneath */}
+    <div className="flex flex-col items-center">
+      <div className="inline-flex items-center gap-1.5 bg-white border border-[#E5E0DC] rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium text-[#333] shadow-sm">
+        <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
+          <path d="M8 13a4 4 0 118 0" fill="none" stroke="currentColor" strokeWidth="1.6"/>
+          <path d="M2 19a6 6 0 0110-4 6 6 0 0110 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/>
+        </svg>
+        <span>35,000+ Women Helped</span>
+      </div>
+
+      {/* Mobile-only rating under the badge */}
+      <div className="sm:hidden mt-1 text-[11.5px] text-[#666] flex items-center gap-1">
+        <span className="font-semibold text-[#333]">4.9</span>
+        <span className="text-[#D66A5E]" aria-hidden="true">★★★★★</span>
+        <span>(2,847 reviews)</span>
+        <span className="sr-only">out of five stars</span>
+      </div>
     </div>
   </div>
 );
@@ -48,7 +61,7 @@ const TrustBadges: React.FC = () => (
 /** Variant A */
 const HeroA: React.FC = () => (
   <section className="py-8 sm:py-10 md:py-12 px-3 sm:px-4 bg-[#FDF9F6]">
-    <div className="mx-auto max-w-4xl">
+    <div className="container mx-auto max-w-4xl">
       <div className="text-center mb-6 sm:mb-8">
         <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
           <span className="text-[11px] sm:text-sm uppercase tracking-wider text-[#666]">
@@ -59,10 +72,12 @@ const HeroA: React.FC = () => (
           </span>
         </div>
 
+        {/* HEADLINE (bigger) */}
         <h1 className="font-serif text-[24px] leading-tight sm:text-5xl md:text-6xl lg:text-[56px] md:leading-tight mb-2 sm:mb-3 text-[#333]">
           Chronic knee pain isn’t ‘just aging.’ It’s often trapped inflammation. Meet the 20-minute 4-in-1 therapy that helps flush inflammation.
         </h1>
 
+        {/* SUBHEAD (smaller) */}
         <p className="text-[14px] sm:text-base md:text-lg text-[#444] max-w-3xl mx-auto">
           Pills numb pain but don’t fix <b>trapped inflammation</b> and <b>slow circulation</b>. This PT-inspired <b>4-in-1 knee device</b> helps reset that cycle—drug-free.
         </p>
@@ -99,7 +114,8 @@ const HeroA: React.FC = () => (
           <span className="text-[#666]">Last Updated:</span>
           <span className="font-medium">October 2024</span>
         </div>
-        <div className="flex justify-center items-center gap-1.5">
+        {/* Desktop-only ratings */}
+        <div className="hidden sm:flex justify-center items-center gap-1.5">
           <span className="text-[#666]">4.9</span>
           <div className="flex text-[#D66A5E]" aria-hidden="true">★★★★★</div>
           <span className="text-[#666]">(2,847 reviews)</span>
@@ -112,7 +128,7 @@ const HeroA: React.FC = () => (
 /** Variant B */
 const HeroB: React.FC = () => (
   <section className="py-8 sm:py-10 md:py-12 px-3 sm:px-4 bg-[#FDF9F6]">
-    <div className="mx-auto max-w-4xl">
+    <div className="container mx-auto max-w-4xl">
       <div className="text-center mb-6 sm:mb-8">
         <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
           <span className="text-[11px] sm:text-sm uppercase tracking-wider text-[#666]">
@@ -123,10 +139,12 @@ const HeroB: React.FC = () => (
           </span>
         </div>
 
+        {/* HEADLINE (bigger) */}
         <h1 className="font-serif text-[24px] leading-tight sm:text-5xl md:text-6xl lg:text-[56px] md:leading-tight mb-2 sm:mb-3 text-[#333]">
           Tried pills, braces, shots? Here’s why your knees still hurt — and the 20-minute at-home 4-in-1 therapy that finally helps
         </h1>
 
+        {/* SUBHEAD (smaller) */}
         <p className="text-[14px] sm:text-base md:text-lg text-[#444] max-w-3xl mx-auto">
           Chronic knee pain lingers when <b>inflammation gets trapped</b> and <b>circulation slows</b>. Physical therapists combine <b>Heat, Red Light, Compression &amp; Massage</b> to reset that cycle — Kneexa brings it home in one device.
         </p>
@@ -162,7 +180,8 @@ const HeroB: React.FC = () => (
           <span className="text-[#666]">Last Updated:</span>
           <span className="font-medium">October 2023</span>
         </div>
-        <div className="flex justify-center items-center gap-1.5">
+        {/* Desktop-only ratings */}
+        <div className="hidden sm:flex justify-center items-center gap-1.5">
           <span className="text-[#666]">4.9</span>
           <div className="flex text-[#D66A5E]" aria-hidden="true">★★★★★</div>
           <span className="text-[#666]">(2,847 reviews)</span>
