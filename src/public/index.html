@@ -12,15 +12,8 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <!-- Perf: preload responsive hero image (use with <picture> in Hero.tsx) -->
-  <link
-    rel="preload"
-    as="image"
-    href="/hero_720.webp"
-    imagesrcset="/hero_360.webp 360w, /hero_720.webp 720w, /hero_1080.webp 1080w"
-    imagesizes="(min-width: 640px) 640px, 100vw"
-    fetchpriority="high"
-  >
+  <!-- Perf: preload the current hero image -->
+  <link rel="preload" as="image" href="/chatgpt_01.jpg" fetchpriority="high">
 </head>
 <body>
   <div id="root"></div>
