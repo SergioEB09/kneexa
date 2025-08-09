@@ -33,13 +33,12 @@ const HeroA: React.FC = () => (
         </div>
 
         <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-4 text-[#333333]">
-          Tired of Limping Through Life? This 58-Year-Old Grandmother's "Weird"
-          10-Minute Morning Ritual Eliminates Knee Pain Without Pills or Surgery
+          Knee pain isn’t ‘just aging.’ It’s often trapped inflammation. Meet the 10-minute 4-in-1 therapy that helps flush it.
         </h1>
 
         <p className="text-lg text-[#444] max-w-3xl mx-auto">
           Pills numb pain but don’t fix <b>trapped inflammation</b> and{" "}
-          <b>slow circulation</b>. This PT-inspired <b>4-in-1 therapy</b> helps
+          <b>slow circulation</b>. This PT-inspired <b>4-in-1 knee device</b> helps
           reset that cycle—drug-free.
         </p>
 
@@ -107,8 +106,8 @@ const HeroB: React.FC = () => (
         </div>
 
         <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-4 text-[#333333]">
-          Tried pills, braces, shots? Here’s why your knees still hurt — and the
-          10-minute at-home therapy that finally helps.
+          Tried pills, braces, shots? Here’s why knees still hurt—and 
+          the 10-minute at-home 4-in-1 therapy that finally helps
         </h1>
 
         <p className="text-lg text-[#444] max-w-3xl mx-auto">
