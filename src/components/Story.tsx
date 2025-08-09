@@ -5,14 +5,7 @@ export function Story() {
     <section className="bg-white py-10 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="prose lg:prose-lg mx-auto">
-          <div className="flex items-center space-x-2 mb-6">
-            <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-            <span className="text-sm uppercase tracking-wider text-[#666666] whitespace-nowrap px-4">
-              Her Story
-            </span>
-            <div className="h-px bg-[#E5E0DC] flex-grow"></div>
-          </div>
-
+          
           <p className="text-xl leading-relaxed mb-6 font-serif italic">
             It was 7:30 AM on a Tuesday when Linda Martinez realized she had become 'that woman.'
           </p>
@@ -82,7 +75,7 @@ export function Story() {
           </div>
 
           <p className="text-lg leading-relaxed mb-6">
-            But what happened next changed everything. In just 10 minutes a day, using what she calls her "weird little morning ritual," Linda eliminated her knee pain completely. No pills. No surgery. No expensive doctor visits.
+            But what happened next changed everything. In just 20 minutes a day, using what she calls her "weird little morning ritual," Linda eliminated her knee pain completely. No pills. No surgery. No expensive doctor visits.
           </p>
           <p className="text-lg leading-relaxed mb-6">
             That's when Linda discovered the Kneexa Relief System.
