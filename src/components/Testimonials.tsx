@@ -114,7 +114,7 @@ export function Testimonials() {
             </blockquote>
           </div>
           <p className="text-lg leading-relaxed mb-6">
-            Now, Linda's morning routine includes 10 minutes with her "weird"
+            Now, Linda's morning routine includes 20 minutes with her "weird"
             device. She uses it while drinking coffee and reading the news.
           </p>
           <div className="flex justify-center my-8">
@@ -153,7 +153,7 @@ export function Testimonials() {
               <div className="bg-[#F9F5F2] rounded-lg p-5 border-l-4 border-[#D66A5E]">
                 <p className="italic mb-2">
                   "After 3 years of chronic knee pain, I can finally play with
-                  my grandkids again. No pills, no surgery - just 10 minutes
+                  my grandkids again. No pills, no surgery - just 20 minutes
                   every morning with this device."
                 </p>
                 <p className="font-medium text-right text-[#D66A5E]">

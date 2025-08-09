@@ -122,7 +122,7 @@ export function Solution() {
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-lg leading-relaxed mb-4">
-                After 10 minutes, Linda removed the device and stood up.
+                After 20 minutes, Linda removed the device and stood up.
               </p>
               <blockquote className="italic border-l-4 border-[#D66A5E] pl-4 bg-[#F2DDD6] p-4 rounded-r-lg">
                 "For the first time in months, I stood up without wincing," she
