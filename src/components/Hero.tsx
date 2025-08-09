@@ -59,11 +59,11 @@ const HeroA: React.FC = () => (
           </span>
         </div>
 
-        <h1 className="font-serif text-[22px] leading-snug sm:text-4xl md:text-5xl md:leading-tight mb-3 sm:mb-4 text-[#333]">
+        <h1 className="font-serif text-[24px] leading-tight sm:text-5xl md:text-6xl lg:text-[56px] md:leading-tight mb-2 sm:mb-3 text-[#333]">
           Chronic knee pain isn’t ‘just aging.’ It’s often trapped inflammation. Meet the 20-minute 4-in-1 therapy that helps flush inflammation.
         </h1>
 
-        <p className="text-[15px] sm:text-lg text-[#444] max-w-3xl mx-auto">
+        <p className="text-[14px] sm:text-base md:text-lg text-[#444] max-w-3xl mx-auto">
           Pills numb pain but don’t fix <b>trapped inflammation</b> and <b>slow circulation</b>. This PT-inspired <b>4-in-1 knee device</b> helps reset that cycle—drug-free.
         </p>
         {/* chips + CTA removed */}
@@ -123,11 +123,11 @@ const HeroB: React.FC = () => (
           </span>
         </div>
 
-        <h1 className="font-serif text-[22px] leading-snug sm:text-4xl md:text-5xl md:leading-tight mb-3 sm:mb-4 text-[#333]">
+        <h1 className="font-serif text-[24px] leading-tight sm:text-5xl md:text-6xl lg:text-[56px] md:leading-tight mb-2 sm:mb-3 text-[#333]">
           Tried pills, braces, shots? Here’s why your knees still hurt — and the 20-minute at-home 4-in-1 therapy that finally helps
         </h1>
 
-        <p className="text-[15px] sm:text-lg text-[#444] max-w-3xl mx-auto">
+        <p className="text-[14px] sm:text-base md:text-lg text-[#444] max-w-3xl mx-auto">
           Chronic knee pain lingers when <b>inflammation gets trapped</b> and <b>circulation slows</b>. Physical therapists combine <b>Heat, Red Light, Compression &amp; Massage</b> to reset that cycle — Kneexa brings it home in one device.
         </p>
         {/* chips + CTA removed */}
