@@ -80,6 +80,21 @@ export function Story() {
           <p className="text-lg leading-relaxed mb-6">
             That's when Linda discovered the Kneexa Relief System.
           </p>
+
+                  {/* NEW: discovery image */}
+        <div className="my-6 sm:my-8">
+          {/* Use your real image dimensions to preserve aspect ratio */}
+          <img
+            src="/linda_device.jpg"
+            alt="Linda holding the Kneexa Relief System at home"
+            className="w-full max-w-2xl mx-auto rounded-xl shadow-lg"
+            loading="lazy"
+            decoding="async"
+            width={768}
+            height={1152}
+          />
+        </div>
+
           <p className="text-lg leading-relaxed mb-6">
             At first, she was skeptical. It looked nothing like the heavy-duty braces or pain patches she had tried before. But it turns out, that's the exact reason it worked…
           </p>
