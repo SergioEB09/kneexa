@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Header from './components/Header';                 // default
 import Hero from './components/Hero';                     // default
 import { Story } from './components/Story';               // named
@@ -11,9 +11,26 @@ import { FAQ } from './components/FAQ';                   // named
 import { CallToAction } from './components/CallToAction'; // named
 import { Footer } from './components/Footer';             // ← named
 
-
-
 function App() {
+  // Build the PDP href once per load, preserving UTMs + A/B variant
+  const { pdpHref, variant } = useMemo(() => {
+    const params = new URLSearchParams(window.location.search);
+    const v = (params.get('v') || 'A').toUpperCase(); // A or B
+    params.set('v', v);
+    if (!params.has('src')) params.set('src', 'presell'); // keep your source tag
+    return {
+      pdpHref: `https://novaluxcol.com/products/kneexa-relief-system?${params.toString()}`,
+      variant: v,
+    };
+  }, []);
+
+  // Track sticky CTA clicks (Meta + GA4/GTM)
+  const handlePdpClick = () => {
+    (window as any).fbq?.('trackCustom', 'PresellToPDP', { variant });
+    (window as any).dataLayer = (window as any).dataLayer || [];
+    (window as any).dataLayer.push({ event: 'presell_to_pdp', variant });
+  };
+
   return (
     <>
       <Header />
@@ -27,7 +44,6 @@ function App() {
       <FAQ />
       <CallToAction />
       <Footer />
-
 
       {/* Sticky ATC */}
       <div className="fixed bottom-0 left-0 right-0 bg-[#FDF9F6] border-t border-[#E5E0DC] shadow-sm py-3 px-4 z-50">
@@ -46,7 +62,8 @@ function App() {
               Only 17 units left
             </div>
             <a
-              href="https://novaluxcol.com/products/kneexa-relief-system"
+              href={pdpHref}
+              onClick={handlePdpClick}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#D66A5E] hover:bg-[#C55D52] text-white px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-medium transition-colors flex items-center space-x-2"
