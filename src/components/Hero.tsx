@@ -1,6 +1,6 @@
 import React from "react";
 
-/** Shared CTA (tracks variant, then navigates to your PDP) */
+/** Shared CTA (kept for later use, but not rendered here) */
 const CTA: React.FC<{ variant: string }> = ({ variant }) => (
   <a
     href={`https://novaluxcol.com/products/kneexa-relief-system?src=presell&v=${variant}`}
@@ -18,7 +18,42 @@ const CTA: React.FC<{ variant: string }> = ({ variant }) => (
   </a>
 );
 
-/** Variant A: keep your current headline + quick mechanism primer */
+/** Reusable trust badges (inline SVG, no images) */
+const TrustBadges: React.FC = () => (
+  <div
+    className="flex flex-wrap justify-center items-center gap-3 md:gap-4 mt-2 mb-2"
+    aria-label="Trust badges"
+  >
+    {/* 90-Day Money-Back */}
+    <div className="inline-flex items-center gap-2 bg-white border border-[#E5E0DC] rounded-full px-3.5 py-2 text-sm font-medium text-[#333] shadow-sm">
+      <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
+        <path d="M12 2l7 3v6c0 5-3.5 9-7 11-3.5-2-7-6-7-11V5l7-3z" fill="none" stroke="currentColor" strokeWidth="1.6"/>
+        <path d="M8.5 12l2.2 2.2L15.5 9.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+      <span>90-Day Money-Back Guarantee</span>
+    </div>
+
+    {/* FDA-Cleared */}
+    <div className="inline-flex items-center gap-2 bg-white border border-[#E5E0DC] rounded-full px-3.5 py-2 text-sm font-medium text-[#333] shadow-sm">
+      <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" strokeWidth="1.6"/>
+        <path d="M12 7v10M7 12h10" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/>
+      </svg>
+      <span>FDA-Cleared Device</span>
+    </div>
+
+    {/* 35,000+ Women Helped */}
+    <div className="inline-flex items-center gap-2 bg-white border border-[#E5E0DC] rounded-full px-3.5 py-2 text-sm font-medium text-[#333] shadow-sm">
+      <svg viewBox="0 0 24 24" className="w-4 h-4 text-[#D66A5E]" aria-hidden="true">
+        <path d="M8 13a4 4 0 118 0" fill="none" stroke="currentColor" strokeWidth="1.6"/>
+        <path d="M2 19a6 6 0 0110-4 6 6 0 0110 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/>
+      </svg>
+      <span>35,000+ Women Helped</span>
+    </div>
+  </div>
+);
+
+/** Variant A */
 const HeroA: React.FC = () => (
   <section className="py-12 px-4 bg-[#FDF9F6]">
     <div className="container mx-auto max-w-4xl">
@@ -33,7 +68,7 @@ const HeroA: React.FC = () => (
         </div>
 
         <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-4 text-[#333333]">
-          Knee pain isn’t ‘just aging.’ It’s often trapped inflammation. Meet the 10-minute 4-in-1 therapy that helps flush it.
+          Chronic Knee pain isn’t ‘just aging.’ It’s often trapped inflammation. Meet the 20-minute 4-in-1 therapy that helps flush inflammation.
         </h1>
 
         <p className="text-lg text-[#444] max-w-3xl mx-auto">
@@ -44,19 +79,16 @@ const HeroA: React.FC = () => (
 
         <div className="flex flex-wrap justify-center gap-2 mt-3 text-sm">
           {["Heat", "Red Light", "Compression", "Massage"].map((c) => (
-            <span
-              key={c}
-              className="px-3 py-1 rounded-full bg-[#F2DDD6] text-[#333]"
-            >
+            <span key={c} className="px-3 py-1 rounded-full bg-[#F2DDD6] text-[#333]">
               {c}
             </span>
           ))}
         </div>
 
-        <CTA variant="A" />
+        {/* CTA removed */}
       </div>
 
-      <div className="max-w-2xl mx-auto mb-8 relative">
+      <div className="max-w-2xl mx-auto mb-2 relative">
         <img
           src="/chatgpt_01.jpg"
           alt="A woman enjoying her morning coffee with a warm smile after finding relief from chronic pain"
@@ -66,20 +98,24 @@ const HeroA: React.FC = () => (
         <div className="absolute -right-4 -top-4 bg-[#D66A5E] text-white text-sm px-4 py-2 rounded-full shadow-lg transform rotate-3">
           As seen in Health Today
         </div>
-        <p className="text-sm text-[#666666] mt-4 text-center italic bg-[#F2DDD6] p-4 rounded-lg">
-          "I went from barely able to climb stairs to playing tag with my
-          grandkids — all thanks to this simple morning routine"
-        </p>
       </div>
 
-      <div className="flex justify-center items-center space-x-4 md:space-x-8 py-6 border-t border-b border-[#E5E0DC] text-sm md:text-base">
+      {/* NEW: Trust badges under the image */}
+      <TrustBadges />
+
+      <p className="text-sm text-[#666666] mt-2 text-center italic bg-[#F2DDD6] p-4 rounded-lg max-w-2xl mx-auto">
+        "I went from barely able to climb stairs to playing tag with my
+        grandkids — all thanks to this simple morning routine"
+      </p>
+
+      <div className="flex justify-center items-center space-x-4 md:space-x-8 py-6 border-t border-b border-[#E5E0DC] text-sm md:text-base mt-6">
         <div className="flex items-center space-x-2">
           <span className="text-[#666666]">Reading Time:</span>
           <span className="font-medium">8 min</span>
         </div>
         <div className="flex items-center space-x-2">
           <span className="text-[#666666]">Last Updated:</span>
-          <span className="font-medium">October 2023</span>
+          <span className="font-medium">October 2024</span>
         </div>
         <div className="flex items-center space-x-2">
           <span className="text-[#666666]">4.9</span>
@@ -91,7 +127,7 @@ const HeroA: React.FC = () => (
   </section>
 );
 
-/** Variant B: root-cause headline + bridge into the same story */
+/** Variant B */
 const HeroB: React.FC = () => (
   <section className="py-12 px-4 bg-[#FDF9F6]">
     <div className="container mx-auto max-w-4xl">
@@ -106,32 +142,29 @@ const HeroB: React.FC = () => (
         </div>
 
         <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-4 text-[#333333]">
-          Tried pills, braces, shots? Here’s why knees still hurt—and 
-          the 10-minute at-home 4-in-1 therapy that finally helps
+          Tried pills, braces, shots? Here’s why your knees still hurt—and 
+          the 20-minute at-home 4-in-1 therapy that finally helps
         </h1>
 
         <p className="text-lg text-[#444] max-w-3xl mx-auto">
           Chronic knee pain lingers when <b>inflammation gets trapped</b> and{" "}
           <b>circulation slows</b>. Physical therapists combine{" "}
-          <b>Heat, Red Light, Compression & Massage</b> to reset that cycle —
+          <b>Heat, Red Light, Compression &amp; Massage</b> to reset that cycle —
           Kneexa brings it home in one device.
         </p>
 
         <div className="flex flex-wrap justify-center gap-2 mt-3 text-sm">
           {["Heat", "Red Light", "Compression", "Massage"].map((c) => (
-            <span
-              key={c}
-              className="px-3 py-1 rounded-full bg-[#F2DDD6] text-[#333]"
-            >
+            <span key={c} className="px-3 py-1 rounded-full bg-[#F2DDD6] text-[#333]">
               {c}
             </span>
           ))}
         </div>
 
-        <CTA variant="B" />
+        {/* CTA removed */}
       </div>
 
-      <div className="max-w-2xl mx-auto mb-8 relative">
+      <div className="max-w-2xl mx-auto mb-2 relative">
         <img
           src="/chatgpt_01.jpg"
           alt="A woman enjoying her morning coffee with a warm smile after finding relief from chronic pain"
@@ -141,13 +174,17 @@ const HeroB: React.FC = () => (
         <div className="absolute -right-4 -top-4 bg-[#D66A5E] text-white text-sm px-4 py-2 rounded-full shadow-lg transform rotate-3">
           As seen in Health Today
         </div>
-        <p className="text-sm text-[#666666] mt-4 text-center italic bg-[#F2DDD6] p-4 rounded-lg">
-          "I went from barely able to climb stairs to playing tag with my
-          grandkids — all thanks to this simple morning routine"
-        </p>
       </div>
 
-      <div className="flex justify-center items-center space-x-4 md:space-x-8 py-6 border-t border-b border-[#E5E0DC] text-sm md:text-base">
+      {/* NEW: Trust badges under the image */}
+      <TrustBadges />
+
+      <p className="text-sm text-[#666666] mt-2 text-center italic bg-[#F2DDD6] p-4 rounded-lg max-w-2xl mx-auto">
+        "I went from barely able to climb stairs to playing tag with my
+        grandkids — all thanks to this simple morning routine"
+      </p>
+
+      <div className="flex justify-center items-center space-x-4 md:space-x-8 py-6 border-t border-b border-[#E5E0DC] text-sm md:text-base mt-6">
         <div className="flex items-center space-x-2">
           <span className="text-[#666666]">Reading Time:</span>
           <span className="font-medium">8 min</span>
@@ -168,7 +205,6 @@ const HeroB: React.FC = () => (
 
 /** Switch by ?v=A|B (default A) */
 export default function Hero() {
-  const v = (new URLSearchParams(window.location.search).get("v") || "A")
-    .toUpperCase();
+  const v = (new URLSearchParams(window.location.search).get("v") || "A").toUpperCase();
   return v === "B" ? <HeroB /> : <HeroA />;
 }
