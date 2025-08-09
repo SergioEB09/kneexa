@@ -78,7 +78,7 @@ export function Story() {
             But what happened next changed everything. In just 20 minutes a day, using what she calls her "weird little morning ritual," Linda eliminated her knee pain completely. No pills. No surgery. No expensive doctor visits.
           </p>
           <p className="text-lg leading-relaxed mb-6">
-            That's when Linda discovered the Kneexa Relief System.
+            <strong>That's when Linda discovered the Kneexa Relief System.</strong>
           </p>
 
                   {/* NEW: discovery image */}
