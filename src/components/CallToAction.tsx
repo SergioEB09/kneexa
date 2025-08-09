@@ -109,7 +109,7 @@ export function CallToAction() {
           <div className="bg-[#F9F5F2] rounded-lg p-6 my-8 text-center">
             <p className="font-serif italic text-lg mb-4">
               "Every morning I wake up now, I have a choice. I can move with
-              pain, or I can spend 10 minutes with my device and move freely.
+              pain, or I can spend 20 minutes with my device and move freely.
               It's the easiest decision I make all day."
             </p>
             <p className="font-medium">— Linda Martinez</p>
