@@ -28,7 +28,7 @@ export function FirstExperience() {
           <div className="flex justify-end my-4">
             <div className="bg-[#F2DDD6] p-3 rounded-lg max-w-xs transform rotate-1 shadow-sm">
               <p className="text-sm italic mb-0 text-center">
-                "That first 10-minute session changed everything" - Linda
+                "That first 20-minute session changed everything" - Linda
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ export function FirstExperience() {
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <div className="w-full md:w-1/2">
               <p className="text-lg leading-relaxed mb-0">
-                The device's display showed a simple 10-minute countdown. Linda leaned back, closed her eyes, and let the combination of therapies do their work.
+                The device's display showed a simple 20-minute countdown. Linda leaned back, closed her eyes, and let the combination of therapies do their work.
               </p>
             </div>
             <div className="w-full md:w-1/2">
@@ -84,7 +84,7 @@ export function FirstExperience() {
 
           <div className="my-8 bg-white border border-[#E5E0DC] rounded-lg p-6 shadow-sm">
             <blockquote className="italic text-xl font-serif text-center mb-0">
-              "When the timer beeped after 10 minutes, I almost didn't want to move. My knee felt... different. Looser. More alive. I stood up without thinking – and that's when it hit me.
+              "When the timer beeped after 20 minutes, I almost didn't want to move. My knee felt... different. Looser. More alive. I stood up without thinking – and that's when it hit me.
               <br />
               <br />
               No wincing. No grabbing for support. I just... stood up. Like I used to. That's when I knew this wasn't just another gimmick."
@@ -92,7 +92,7 @@ export function FirstExperience() {
           </div>
 
           <p className="text-lg leading-relaxed mb-6 bg-[#F9F5F2] p-4 rounded-lg font-medium text-center">
-            That simple 10-minute session marked the beginning of Linda's transformation. But even she couldn't have predicted just how much her life was about to change...
+            That simple 20-minute session marked the beginning of Linda's transformation. But even she couldn't have predicted just how much her life was about to change...
           </p>
         </div>
       </div>
