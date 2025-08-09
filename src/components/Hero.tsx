@@ -178,7 +178,7 @@ const HeroB: React.FC = () => (
         </div>
         <div className="flex justify-center items-center gap-1.5">
           <span className="text-[#666]">Last Updated:</span>
-          <span className="font-medium">October 2023</span>
+          <span className="font-medium">October 2024</span>
         </div>
         {/* Desktop-only ratings */}
         <div className="hidden sm:flex justify-center items-center gap-1.5">
